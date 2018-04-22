@@ -9,4 +9,4 @@ Angular 5 universal/server side rendering template
 ## Development: http://localhost:4200
 Run ```npm run start```
 ## Production: http://localhost:4000
-Run ```npm run build:ssr``` and ```npm run serve:ssrand```
+Run ```npm run build:ssr``` and ```npm run serve:ssr```
