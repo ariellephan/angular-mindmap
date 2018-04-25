@@ -19,11 +19,12 @@ import { MessagesComponent }    from './messages/messages.component';
 
 import { PLATFORM_ID, APP_ID, Inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { MindmapComponent } from './mindmap/mindmap.component';
 
 
 @NgModule({
   imports: [
-    BrowserModule.withServerTransition({ appId: 'tour-of-heroes' }),
+    BrowserModule.withServerTransition({ appId: 'mindmap-demo' }),
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
@@ -37,7 +38,8 @@ import { isPlatformBrowser } from '@angular/common';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    MindmapComponent
   ],
   providers: [ HeroService, MessageService ],
   bootstrap: [ AppComponent ]

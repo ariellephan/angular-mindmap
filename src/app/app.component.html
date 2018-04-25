@@ -1,7 +1,9 @@
 <h1>{{title}}</h1>
 <nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
 </nav>
+<app-mindmap
+[nodes]="data.nodes"
+[connections]="data.connections"
+[editable]="true"></app-mindmap>
 <router-outlet></router-outlet>
 <app-messages></app-messages>

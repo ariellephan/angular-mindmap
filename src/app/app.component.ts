@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MindmapComponent}   from './mindmap/mindmap.component';
+import map from "./data/map";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tour of Heroes';
+  title = 'Mindmap on Angular 5 SSR';
+  data = {...map};
 }

@@ -18,7 +18,15 @@
     "build:client-and-server-bundles": "ng build --prod && ng build --prod --app 1 --output-hashing=false",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
   },
-  "keywords": [],
+  "keywords": [
+    "kitchensink",
+    "kitchensink-angular",
+    "canvas",
+    "angular",
+    "mindmap",
+    "d3",
+    "angular-mindmap"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -36,9 +44,14 @@
     "@angular/upgrade": "~5.2.10",
     "@nguniversal/express-engine": "~5.0.0",
     "@nguniversal/module-map-ngfactory-loader": "~5.0.0",
+    "@types/d3": "^5.0.0",
     "angular-in-memory-web-api": "~0.5.4",
+    "codelyzer": "^4.3.0",
     "core-js": "^2.4.1",
+    "d3": "^4.13.0",
+    "node-sass": "^4.7.2",
     "rxjs": "^5.5.0",
+    "sass-loader": "^6.0.6",
     "ts-loader": "^3.5.0",
     "zone.js": "^0.8.12"
   },
