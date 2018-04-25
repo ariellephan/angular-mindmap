@@ -1,10 +1,14 @@
 # angular-mindmap
 Mindmap on Angular 5 universal/server side rendering template
 
+![Mindmap](/demo.png "Mindmap on angular and d3")
+
+Demo: http://angular-mindmap.surge.sh/
+
 Credits:
 vue-mindmap
 
-[![Edit Angular 5 universal template](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/4lxom9y209)
+
 
 ## Development: http://localhost:4200
 Run ```npm run start```
